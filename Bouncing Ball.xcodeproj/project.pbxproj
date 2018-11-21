@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2D66FD0D21A5E21400BFBDDD /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD0C21A5E21400BFBDDD /* ResourcePath.mm */; };
-		2D66FD1021A5E21400BFBDDD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD0F21A5E21400BFBDDD /* main.cpp */; };
-		2D66FD1321A5E21400BFBDDD /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D66FD1221A5E21400BFBDDD /* cute_image.jpg */; };
-		2D66FD1521A5E21400BFBDDD /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2D66FD1421A5E21400BFBDDD /* nice_music.ogg */; };
-		2D66FD1721A5E21400BFBDDD /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D66FD1621A5E21400BFBDDD /* sansation.ttf */; };
-		2D66FD1921A5E21400BFBDDD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D66FD1821A5E21400BFBDDD /* icon.png */; };
+		2D66FD2921A5E26000BFBDDD /* animate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD2121A5E26000BFBDDD /* animate.cpp */; };
+		2D66FD2A21A5E26000BFBDDD /* system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD2221A5E26000BFBDDD /* system.cpp */; };
+		2D66FD2B21A5E26000BFBDDD /* sidebar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD2321A5E26000BFBDDD /* sidebar.cpp */; };
+		2D66FD2C21A5E26000BFBDDD /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD2521A5E26000BFBDDD /* random.cpp */; };
+		2D66FD2D21A5E26000BFBDDD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D66FD2821A5E26000BFBDDD /* main.cpp */; };
+		2D66FD3021A5E33D00BFBDDD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D66FD2E21A5E27900BFBDDD /* Roboto-Thin.ttf */; };
+		2D66FD3121A5E34100BFBDDD /* arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D66FD2F21A5E27900BFBDDD /* arial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +22,18 @@
 		2D66FD0B21A5E21400BFBDDD /* Bouncing Ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bouncing Ball-Info.plist"; sourceTree = "<group>"; };
 		2D66FD0C21A5E21400BFBDDD /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		2D66FD0E21A5E21400BFBDDD /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		2D66FD0F21A5E21400BFBDDD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2D66FD1221A5E21400BFBDDD /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		2D66FD1421A5E21400BFBDDD /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		2D66FD1621A5E21400BFBDDD /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		2D66FD1821A5E21400BFBDDD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2D66FD1F21A5E26000BFBDDD /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animate.h; sourceTree = "<group>"; };
+		2D66FD2021A5E26000BFBDDD /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		2D66FD2121A5E26000BFBDDD /* animate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = animate.cpp; sourceTree = "<group>"; };
+		2D66FD2221A5E26000BFBDDD /* system.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = system.cpp; sourceTree = "<group>"; };
+		2D66FD2321A5E26000BFBDDD /* sidebar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sidebar.cpp; sourceTree = "<group>"; };
+		2D66FD2421A5E26000BFBDDD /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		2D66FD2521A5E26000BFBDDD /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		2D66FD2621A5E26000BFBDDD /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		2D66FD2721A5E26000BFBDDD /* sidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidebar.h; sourceTree = "<group>"; };
+		2D66FD2821A5E26000BFBDDD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../10_Single Bouncing Ball/single_ball/main.cpp"; sourceTree = "<group>"; };
+		2D66FD2E21A5E27900BFBDDD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		2D66FD2F21A5E27900BFBDDD /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				2D66FD0C21A5E21400BFBDDD /* ResourcePath.mm */,
+				2D66FD2121A5E26000BFBDDD /* animate.cpp */,
+				2D66FD1F21A5E26000BFBDDD /* animate.h */,
+				2D66FD2021A5E26000BFBDDD /* constants.h */,
+				2D66FD2821A5E26000BFBDDD /* main.cpp */,
+				2D66FD2521A5E26000BFBDDD /* random.cpp */,
+				2D66FD2421A5E26000BFBDDD /* random.h */,
+				2D66FD2321A5E26000BFBDDD /* sidebar.cpp */,
+				2D66FD2721A5E26000BFBDDD /* sidebar.h */,
+				2D66FD2221A5E26000BFBDDD /* system.cpp */,
+				2D66FD2621A5E26000BFBDDD /* system.h */,
 				2D66FD0E21A5E21400BFBDDD /* ResourcePath.hpp */,
-				2D66FD0F21A5E21400BFBDDD /* main.cpp */,
 				2D66FD1121A5E21400BFBDDD /* Resources */,
 				2D66FD0A21A5E21400BFBDDD /* Supporting Files */,
 			);
@@ -77,10 +95,8 @@
 		2D66FD1121A5E21400BFBDDD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2D66FD1221A5E21400BFBDDD /* cute_image.jpg */,
-				2D66FD1421A5E21400BFBDDD /* nice_music.ogg */,
-				2D66FD1621A5E21400BFBDDD /* sansation.ttf */,
-				2D66FD1821A5E21400BFBDDD /* icon.png */,
+				2D66FD2F21A5E27900BFBDDD /* arial.ttf */,
+				2D66FD2E21A5E27900BFBDDD /* Roboto-Thin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -142,10 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D66FD1921A5E21400BFBDDD /* icon.png in Resources */,
-				2D66FD1721A5E21400BFBDDD /* sansation.ttf in Resources */,
-				2D66FD1521A5E21400BFBDDD /* nice_music.ogg in Resources */,
-				2D66FD1321A5E21400BFBDDD /* cute_image.jpg in Resources */,
+				2D66FD3121A5E34100BFBDDD /* arial.ttf in Resources */,
+				2D66FD3021A5E33D00BFBDDD /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +168,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		2D66FD0521A5E21400BFBDDD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -165,9 +179,9 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -176,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D66FD1021A5E21400BFBDDD /* main.cpp in Sources */,
+				2D66FD2B21A5E26000BFBDDD /* sidebar.cpp in Sources */,
+				2D66FD2A21A5E26000BFBDDD /* system.cpp in Sources */,
+				2D66FD2C21A5E26000BFBDDD /* random.cpp in Sources */,
+				2D66FD2D21A5E26000BFBDDD /* main.cpp in Sources */,
 				2D66FD0D21A5E21400BFBDDD /* ResourcePath.mm in Sources */,
+				2D66FD2921A5E26000BFBDDD /* animate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
