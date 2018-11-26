@@ -1,7 +1,6 @@
 #include "animate.h"
 #include "constants.h"
 #include <iostream>
-#include "ResourcePath.hpp"
 using namespace std;
 #include "system.h"
 
@@ -41,9 +40,7 @@ animate::animate():sidebar(WORK_PANEL, SIDE_BAR)
     //
     //font must be a member of the class.
     //  Will not work with a local declaration
-    //Make sure that the font is loaded from the resourcePath() class with the file name
-    // and that the target image file in Recources directory
-    if (!font.loadFromFile(resourcePath() + "arial.ttf")){
+    if (!font.loadFromFile("arial.ttf")){
         cout<<"animate() CTOR: Font failed to load"<<endl;
         cin.get();
         exit(-1);

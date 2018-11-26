@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include "constants.h"
+#include <constants.h>
 System::System()
 {
     Random r;

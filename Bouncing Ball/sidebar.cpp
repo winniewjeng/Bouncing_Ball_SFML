@@ -1,7 +1,5 @@
 #include "sidebar.h"
 #include "constants.h"
-#include "ResourcePath.hpp"
-
 Sidebar::Sidebar(){
 
 }
@@ -21,7 +19,7 @@ Sidebar::Sidebar(float left, float width):_left(left), _width(width){
     // check projects->run->working directory
     //      [Make sure it's not pointing to the app file]
 
-    if (!font.loadFromFile(resourcePath() + "Roboto-Thin.ttf")){
+    if (!font.loadFromFile("Roboto-Thin.ttf")){
         cout<<"Sidebar() CTOR: Font failed to load"<<endl;
         cin.get();
         exit(-1);

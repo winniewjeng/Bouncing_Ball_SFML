@@ -30,7 +30,7 @@
 		2D66FD2421A5E26000BFBDDD /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		2D66FD2521A5E26000BFBDDD /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
 		2D66FD2621A5E26000BFBDDD /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
-		2D66FD2721A5E26000BFBDDD /* sidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidebar.h; sourceTree = "<group>"; };
+		2D66FD2721A5E26000BFBDDD /*  */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		2D66FD2821A5E26000BFBDDD /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../10_Single Bouncing Ball/single_ball/main.cpp"; sourceTree = "<group>"; };
 		2D66FD2E21A5E27900BFBDDD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		2D66FD2F21A5E27900BFBDDD /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 				2D66FD2521A5E26000BFBDDD /* random.cpp */,
 				2D66FD2421A5E26000BFBDDD /* random.h */,
 				2D66FD2321A5E26000BFBDDD /* sidebar.cpp */,
-				2D66FD2721A5E26000BFBDDD /* sidebar.h */,
+				2D66FD2721A5E26000BFBDDD /*  */,
 				2D66FD2221A5E26000BFBDDD /* system.cpp */,
 				2D66FD2621A5E26000BFBDDD /* system.h */,
 				2D66FD0E21A5E21400BFBDDD /* ResourcePath.hpp */,

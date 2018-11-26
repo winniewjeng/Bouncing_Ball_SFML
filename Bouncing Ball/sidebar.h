@@ -1,6 +1,6 @@
 #ifndef SIDEBAR_H
 #define SIDEBAR_H
-#include <SFML/Graphics.hpp>
+#include "SFML/Graphics.hpp"
 #include <iostream>
 #include <string>
 #include <vector>
