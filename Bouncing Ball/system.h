@@ -14,7 +14,7 @@ public:
 private:
 //    vector<Particle> system;
     sf::CircleShape shape;
-    sf::Vector2f vel;
+    sf::Vector2f vel; // velocity
 };
 
 #endif // SYSTEM_H

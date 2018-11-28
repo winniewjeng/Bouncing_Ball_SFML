@@ -1,6 +1,6 @@
 #ifndef SIDEBAR_H
 #define SIDEBAR_H
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -19,7 +19,6 @@ private:
     vector<string> items;               //strings to place on the sidebar
     sf::Font font;                      //used to draw text
     sf::Text sb_text;                   //used to draw strings on the window object
-
     float _left;
     float _width;
 

@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#include <constants.h>
+#include "constants.h"
 System::System()
 {
     Random r;
@@ -11,7 +11,7 @@ System::System()
     int ypos = 100;
     //the shape of the object, along with its velocity, acceleration,
     //position, etc. should be part of the individual object.
-    shape = sf::CircleShape(10);
+    shape = sf::CircleShape(100);
     shape.setPosition(sf::Vector2f(xpos, ypos));
     vel = sf::Vector2f(r.Next(-5,5), r.Next(-5,5)); //random velocity
     int r_ = r.Next(0,255);
@@ -46,5 +46,4 @@ void System::Step(int command){
 void System::Draw(sf::RenderWindow& window){
 //    window.clear();
     window.draw(shape);
-
 }

@@ -1,16 +1,18 @@
 #ifndef GAME_H
 #define GAME_H
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 #include "system.h"
 #include "sidebar.h"
 class animate{
 public:
+    
     animate();
     void run();
     void processEvents();
     void update();
     void render();
     void Draw();
+    
 private:
     sf::RenderWindow window;
     sf::CircleShape mousePoint;         //The little red dot
